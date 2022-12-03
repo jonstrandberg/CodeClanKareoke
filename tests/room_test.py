@@ -52,6 +52,3 @@ class TestRoom(unittest.TestCase):
         self.room_2.add_song_to_room(self.song_1)
         self.assertEqual(1, len(self.room_2.list_of_songs))
 
-    def test_play_song_in_room(self):
-        self.room_1.add_song_to_room(self.song_4)
-        self.assertEqual("Gypsy")

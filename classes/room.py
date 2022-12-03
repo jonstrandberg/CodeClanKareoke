@@ -22,11 +22,9 @@ class Room:
         return len(self.list_of_songs)
     
     def add_song_to_room(self, song):
-        self.list_of_songs.append(song)
+        self.list_of_songs.append(song.title)
 
-    def play_song(self):
-        self.add_song_to_room
-        return self.list_of_songs[-1]
+
 
 
 
